@@ -20,6 +20,7 @@ script:
 
 after_script:
   - cd ./dist
+  - echo "2018-08-21" > 1.txt
   - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
